@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+* {
+
+  font-family: /* 'Goldman', cursive; */ 'Aboreto', cursive;
+
+}
+
+body {
+	background: radial-gradient(ellipse at center, #443501 0%,#000000 100%);
+	height: 100%;
+}
+
+.Nav-logo {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  background-color: black;
+}
+
+h1 {
+    background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: solid;
+    color: #fff;
+    font-family: /* 'Goldman', cursive; */ 'Aboreto';
+    position: relative;
+	  text-transform: uppercase;	
+	  font-size: 14vw;
+ 
+	margin: 0;
+	font-weight: bolder;
+}
+
+h1:after {
+    background: none;
+    content: attr(data-heading);
+    left: 0;
+	 top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 
+		-1px 0 1px #c6bb9f, 
+		0 1px 1px #c6bb9f, 
+		5px 5px 10px rgba(0, 0, 0, 0.4),
+		-5px -5px 10px rgba(0, 0, 0, 0.4);
+} 
+
+
+
+.nav-links-indv {
+  margin: 2vw;
+  color: white;
+}
+
+.nav-links {
+  font-style: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+	justify-content: center;
+  width: 100%;
+  background-color: black;
+ 
+  /* font-family: 'Goldman'; */
+}
+
+.search-bar {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.CreateProfile > textarea {
+  text-align: center;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.Nav-links {
+  font-style: none;
+  text-decoration: none;
+}
+
+.SignupPage {
+ border: solid #000000 5px;
+ background-color: #000000;
+ color: white;
+ max-width: 253px;
+  display: flex; 
+ display: inline-block;
+ flex-direction: column;
+ flex-direction: center;
+ align-items: center;
+justify-content: center;
+/* margin-left: 43vw; */
+margin-top: 8vw;
+margin-bottom: 8vw;
+padding: 20px;
+height: 30vw;
+border-radius: 3%;
+font-size: 1vw;
+
+
+}
+
+.login-form {
+  border: solid #000000 5px;
+  background-color: #000000;
+  color: white;
+  max-width: 280px;
+   display: flex; 
+  display: inline-block;
+  flex-direction: column;
+  flex-direction: center;
+  align-items: center;
+ justify-content: center;
+ /* margin-left: 43vw; */
+ margin-top: 10vw;
+ margin-bottom: 4vw;
+ padding: 20px;
+ height: 30vw;
+ border-radius: 3%;
+ font-size: 1vw;
+
+}
+
+.labels-login {
+
+  margin: 20px;
+}
+
+.Signup-button {
+  font-size: 1.2vw;
+padding: 0.5vw;
+font-weight: bolder;
+background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: solid;
+    /* color: #fff; */
+}
+
+.login-link {
+
+  background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-position: solid;
+      /* color: #fff; */
+}
+.sign-up-inputs {
+  font-family: /* 'Goldman', cursive; */ 'Aboreto', cursive;
+  text-align: center;
+	align-items: center;
+	justify-content: center;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  border: solid white;
+  border-radius: 3%
+}
+
+.login-inputs {
+  font-family: /* 'Goldman', cursive; */ 'Aboreto', cursive;
+  text-align: center;
+	align-items: center;
+	justify-content: center;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  border: solid white;
+  border-radius: 3%
+}
+
+.login-button-main {
+  font-size: 1.2vw;
+padding: 0.5vw;
+margin-top: 20px;
+font-weight: bolder;
+background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: solid;
+    /* color: #fff; */
+
+}
+
+.sign-up-login p {
+  padding-top: 20px;
+}
+
+.CreateProfile {
+  border: solid #000000 5px;
+    background-color: #000000;
+    color: white;
+    max-width: 400px;
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 43vw; */
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+    padding: 10px;
+    height: 44vw;
+    border-radius: 3%;
+    font-size: 1vw;
+
+
+}
+
+.create-prof-inputs {
+
+  font-family: /* 'Goldman', cursive; */ 'Aboreto', cursive;
+  text-align: center;
+	/* align-items: center; */
+/* 	justify-content: center; */
+/*   justify-content: space-between; */
+   margin-top: 2vw; 
+  padding: 5px;
+  margin-right: 10px;  
+  border: solid white 5px;
+  border-radius: 3%
+
+}
+
+.email{
+ 
+  justify-content: center;
+  flex-direction: space-between; 
+
+} 
+
+ .host {
+  margin-right: 5px;
+  padding-bottom: 20px;
+} 
+
+.create-prof-button {
+  font-size: 1.2vw;
+padding: 0.8vw;
+margin-top: 10px;
+font-weight: bolder;
+background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: solid;
+    /* color: #fff; */
+
+}
+
+.textarea {
+border: solid white;
+border-radius: 3%;
+margin-bottom: 30px;
+/* position:fixed; */
+
+}
+.partyDetailsPage{
+  color: #fff;
+}
